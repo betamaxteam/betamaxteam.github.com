@@ -11,6 +11,7 @@ apply plugin: "github-pages"
 
 githubPages {
     repoUri = "git@github.com:betamaxteam/betamax.github.com.git"
+    targetBranch = "master"
     workingPath = "$buildDir/docs"
     pages {
         exclude "**/_site/**"
