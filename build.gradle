@@ -12,7 +12,7 @@ buildscript {
 apply plugin: "org.ajoberstar.github-pages"
 
 githubPages {
-  repoUri = "git@github.com:betamaxteam/betamax.github.com.git"
+  repoUri = "git@github.com:betamaxteam/betamaxteam.github.com.git"
   targetBranch = "master"
   workingPath = "$buildDir/docs"
   pages {
