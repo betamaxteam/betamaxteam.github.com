@@ -21,4 +21,8 @@ githubPages {
         exclude "**/*.less"
     }
   }
+  credentials {
+    username = System.getenv("GH_TOKEN")
+    password = ""
+  }
 }
