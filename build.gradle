@@ -1,22 +1,24 @@
 buildscript {
-    repositories {
-        mavenCentral()
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
     }
-    dependencies {
-        classpath "org.ajoberstar:gradle-git:0.6.1"
-    }
+  }
+  dependencies {
+    classpath "org.ajoberstar:gradle-git:1.4.2"
+  }
 }
 
-apply plugin: "github-pages"
+apply plugin: "org.ajoberstar.github-pages"
 
 githubPages {
-    repoUri = "git@github.com:betamaxteam/betamax.github.com.git"
-    targetBranch = "master"
-    workingPath = "$buildDir/docs"
-    pages {
-        exclude "**/_site/**"
-        from("src/docs") {
-            exclude "**/*.less"
-        }
+  repoUri = "git@github.com:betamaxteam/betamax.github.com.git"
+  targetBranch = "master"
+  workingPath = "$buildDir/docs"
+  pages {
+    exclude "**/_site/**"
+    from("src/docs") {
+        exclude "**/*.less"
     }
+  }
 }
