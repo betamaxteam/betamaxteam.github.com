@@ -317,7 +317,7 @@ The Betamax proxy is a testing tool and not a spec-compliant HTTP proxy. It igno
 
 ## Examples
 
-Betamax's GitHub repository includes [an example play application][playexample].
+Betamax's GitHub repository includes [an example Play application][playexample].
 
 ## About
 
