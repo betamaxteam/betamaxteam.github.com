@@ -317,7 +317,7 @@ The Betamax proxy is a testing tool and not a spec-compliant HTTP proxy. It igno
 
 ## Examples
 
-Betamax's GitHub repository includes [an example Grails application][grailsexample].
+Betamax's GitHub repository includes [an example play application][playexample].
 
 ## About
 
@@ -373,7 +373,7 @@ The documentation is built with [Jekyll][jekyll], [Twitter Bootstrap](http://twi
 [github]:http://github.com/robfletcher (Rob Fletcher on GitHub)
 [gradle]:http://www.gradle.org/
 [grails]:http://grails.org/
-[grailsexample]:https://github.com/robfletcher/betamax/tree/master/examples/grails-betamax
+[playexample]:https://github.com/betamaxteam/betamax/tree/master/example
 [groovy]:http://groovy.codehaus.org/
 [htmlunit]:http://htmlunit.sourceforge.net/
 [httpbuilder]:http://groovy.codehaus.org/modules/http-builder/
